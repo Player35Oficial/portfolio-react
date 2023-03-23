@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   font-family: "Merriweather Sans", sans-serif;
   --body-bg-color: #22212c;
@@ -12,4 +18,5 @@ body {
   display: flex;
   background-color: var(--body-bg-color);
   height: 100%;
+  color: var(--text-color);
 }
