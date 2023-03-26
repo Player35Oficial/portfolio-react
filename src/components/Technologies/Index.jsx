@@ -9,7 +9,8 @@ export default function Technologies() {
         <li>Javascript</li>
         <li>ReactJS</li>
         <li>Github</li>
-        <li>Pythonn</li>
+        <li>Git</li>
+        <li>Python</li>
       </ul>
     </div>
   );

@@ -1,11 +1,30 @@
 .tech-container {
   background-color: var(--bg-cards);
-  height: 18.25rem;
+  height: fit-content;
   width: 21.75rem;
   padding: 32px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
 }
 
 .tech-container h2 {
   font-size: 20px;
   text-align: start;
+}
+
+.tech-container ul {
+  justify-content: center;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.tech-container li {
+  background-color: var(--bg-techs);
+  color: black;
+  padding: 5px 12px;
+  border-radius: 30px;
+  flex: 1;
 }

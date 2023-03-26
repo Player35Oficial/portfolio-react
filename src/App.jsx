@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <Profile />
       <Links />
+      <Technologies />
     </div>
   );
 }
