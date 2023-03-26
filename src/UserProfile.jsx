@@ -5,9 +5,9 @@ import Technologies from "./components/Technologies";
 import Experiences from "./components/Experiences";
 import Education from "./components/Education";
 
-function App() {
+function UserProfile() {
   return (
-    <div className="App">
+    <div className="App-User">
       <Profile />
       <Links />
       <Technologies />
@@ -17,4 +17,4 @@ function App() {
   );
 }
 
-export default App;
+export default UserProfile;
