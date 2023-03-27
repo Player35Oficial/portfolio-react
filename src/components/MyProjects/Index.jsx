@@ -20,10 +20,6 @@ export default function MyProjects() {
       <div className="container-project">
         <Project />
       </div>
-
-      <div className="container-title">
-        <h2>Posts Recentes</h2>
-      </div>
     </>
   );
 }

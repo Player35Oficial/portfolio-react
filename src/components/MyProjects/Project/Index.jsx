@@ -10,7 +10,9 @@ export default function Project() {
     fetch("https://api.github.com/users/player35Oficial/repos")
       .then((resp) => resp.json())
       .then((data) => {
-        data = data.filter((current, indice) => current && indice < 2);
+        data = data.filter(
+          (current) => current.updated_at > "2023-03-02T00:47:40Z"
+        );
         setRepos(data);
       });
   }, []);
