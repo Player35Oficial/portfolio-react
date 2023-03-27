@@ -23,7 +23,7 @@
 
 .project-container {
   height: 180px;
-  width: 460px;
+  width: 100%;
   background-color: var(--bg-cards);
   border-radius: 16px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -70,6 +70,11 @@
   border-radius: 50%;
 }
 
-.project-container .project-stats .language.javascript::before {
+.project-container .project-stats .language::before.javaScript {
   background-color: yellow;
+}
+
+.container-project {
+  display: flex;
+  gap: 20px;
 }
