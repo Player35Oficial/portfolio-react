@@ -1,16 +1,16 @@
 import React from "react";
-import "./Index.css";
 import briefcase from "../../assets/briefcase.svg";
 import pin from "../../assets/map-pin.svg";
 import globe from "../../assets/globe.svg";
 import linkedin from "../../assets/linkedin.svg";
 import mail from "../../assets/mail.svg";
 import github from "../../assets/github.svg";
+import { LinksContainer } from "./styles.js";
 
 export default function Links() {
   return (
-    <div className="links-container">
-      <div className="links-item">
+    <LinksContainer>
+      <div>
         <img src={pin} alt="icon" />
         <a href="Brasil">Brasil</a>
       </div>
@@ -34,6 +34,6 @@ export default function Links() {
         <img src={mail} alt="icon" />
         <a href="yuri@gmail.com">yuri@gmail.com</a>
       </div>
-    </div>
+    </LinksContainer>
   );
 }

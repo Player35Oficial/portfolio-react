@@ -1,15 +1,16 @@
 import React from "react";
-import "./Index.css";
+// import "./Index.css";
+import { ProfileContainer } from "./styles";
 
 export default function Profile() {
   return (
-    <div className="profile-container">
+    <ProfileContainer>
       <img
         src="https://avatars.githubusercontent.com/u/85082875?v=4"
         alt="Imagem de Perfil"
       />
       <h3>Yuri G. Santana</h3>
       <p>Front End Developer</p>
-    </div>
+    </ProfileContainer>
   );
 }
