@@ -16,11 +16,11 @@ export default function Links() {
       </div>
       <div className="links-item">
         <img src={briefcase} alt="icon" />
-        <a href="Rocketseat">Rocketseat</a>
+        <a href="/">Estudando</a>
       </div>
       <div className="links-item">
         <img src={github} alt="icon" />
-        <a href="github.com/Player35Oficial">Player35oficial</a>
+        <a href="https://github.com/Player35Oficial">Player35oficial</a>
       </div>
       <div className="links-item">
         <img src={linkedin} alt="icon" />
