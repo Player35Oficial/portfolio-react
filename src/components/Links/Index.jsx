@@ -20,11 +20,15 @@ export default function Links() {
       </div>
       <div className="links-item">
         <img src={github} alt="icon" />
-        <a href="https://github.com/Player35Oficial">Player35oficial</a>
+        <a href="https://github.com/Player35Oficial" target="_blank">
+          Player35oficial
+        </a>
       </div>
       <div className="links-item">
         <img src={linkedin} alt="icon" />
-        <a href="https://www.linkedin.com/in/yuri-player35/">yuri-player35</a>
+        <a href="https://www.linkedin.com/in/yuri-player35/" target="_blank">
+          yuri-player35
+        </a>
       </div>
       <div className="links-item">
         <img src={globe} alt="icon" />
