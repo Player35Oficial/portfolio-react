@@ -3,6 +3,8 @@ import folder from "../../../assets/folder.svg";
 import star from "../../../assets/star.svg";
 import branch from "../../../assets/git-branch.svg";
 
+import "./styles";
+
 export default function Project() {
   const [repos, setRepos] = useState([]);
 
@@ -23,7 +25,9 @@ export default function Project() {
         <div className="project-container">
           <div className="project-title">
             <img src={folder} alt="ico" />
-            <h3>{repo.name}</h3>
+            <h3>
+              <a href="">{repo.name}</a>
+            </h3>
           </div>
 
           <div className="project-description">

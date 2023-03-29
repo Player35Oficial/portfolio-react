@@ -20,19 +20,21 @@ export default function Links() {
       </div>
       <div className="links-item">
         <img src={github} alt="icon" />
-        <a href="Player35Oficial">Player35oficial</a>
+        <a href="github.com/Player35Oficial">Player35oficial</a>
       </div>
       <div className="links-item">
         <img src={linkedin} alt="icon" />
-        <a href="yuri-player35">yuri-player35</a>
+        <a href="https://www.linkedin.com/in/yuri-player35/">yuri-player35</a>
       </div>
       <div className="links-item">
         <img src={globe} alt="icon" />
-        <a href="https://player35.dev">https://player35.dev</a>
+        <a href="/">https://player35.dev</a>
       </div>
       <div className="links-item">
         <img src={mail} alt="icon" />
-        <a href="yuri@gmail.com">yuri@gmail.com</a>
+        <a href="mailto:yuri_santana@educadventista.org">
+          yuri_santan@educadventista.org
+        </a>
       </div>
     </LinksContainer>
   );

@@ -1,12 +1,13 @@
 import React from "react";
 import Project from "./Project";
 
-import "./Index.css";
+// import "./Index.css";
+import { ContainerProject, ContainerTitle } from "./styles";
 
 export default function MyProjects() {
   return (
     <>
-      <div className="container-title">
+      <ContainerTitle className="container-title">
         <h2>
           Meus Projetos{" "}
           <a
@@ -16,10 +17,10 @@ export default function MyProjects() {
             Veja Todos
           </a>
         </h2>
-      </div>
-      <div className="container-project">
+      </ContainerTitle>
+      <ContainerProject className="container-project">
         <Project />
-      </div>
+      </ContainerProject>
     </>
   );
 }

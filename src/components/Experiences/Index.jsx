@@ -8,15 +8,10 @@ export default function Experiences() {
       <h3>Experiências</h3>
       <ul>
         <li>
-          <h4>Rocketseat</h4>
+          <h4>SENAI - Ary Torres</h4>
           <p>
-            2019 - Atualmente <br /> <span>Community Experience</span>{" "}
-          </p>
-        </li>
-        <li>
-          <h4>Rocketseat</h4>
-          <p>
-            2019 - Atualmente <br /> <span>Community Experience</span>{" "}
+            2021 - Atualmente <br />{" "}
+            <span>Técnico em Eletroeletrônica - Aprendiz</span>{" "}
           </p>
         </li>
       </ul>
