@@ -1,9 +1,10 @@
 import React from "react";
-import "./Index.css";
+// import "./Index.css";
+import { TechContainer } from "./styles";
 
 export default function Technologies() {
   return (
-    <div className="tech-container">
+    <TechContainer>
       <h2>Tecnologias</h2>
       <ul>
         <li>Javascript</li>
@@ -12,6 +13,6 @@ export default function Technologies() {
         <li>Git</li>
         <li>Python</li>
       </ul>
-    </div>
+    </TechContainer>
   );
 }

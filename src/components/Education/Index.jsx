@@ -1,9 +1,10 @@
 import React from "react";
-import "./Index.css";
+// import "./Index.css";
+import { EduContainer } from "./styles";
 
 export default function Education() {
   return (
-    <div className="edu-container">
+    <EduContainer>
       <h3>Educação</h3>
       <ul>
         <li>
@@ -20,6 +21,6 @@ export default function Education() {
           </p>
         </li>
       </ul>
-    </div>
+    </EduContainer>
   );
 }

@@ -1,9 +1,10 @@
 import React from "react";
-import "./Index.css";
+// import "./Index.css";
+import { ExpContainer } from "./styles";
 
 export default function Experiences() {
   return (
-    <div className="exp-container">
+    <ExpContainer>
       <h3>Experiências</h3>
       <ul>
         <li>
@@ -19,6 +20,6 @@ export default function Experiences() {
           </p>
         </li>
       </ul>
-    </div>
+    </ExpContainer>
   );
 }
