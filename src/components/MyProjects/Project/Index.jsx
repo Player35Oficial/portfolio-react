@@ -21,40 +21,50 @@ export default function Project() {
 
   return (
     <>
-      {repos.map((repo) => (
-        <div className="project-container">
-          <div className="project-title">
-            <img src={folder} alt="ico" />
-            <h3>
-              <a href="">{repo.name}</a>
-            </h3>
-          </div>
-
-          <div className="project-description">
-            {repo.description ? (
-              <p>{repo.description}</p>
-            ) : (
-              <p>{repo.full_name}</p>
-            )}
-          </div>
-
-          <div className="project-stats">
-            <div>
-              <span>
-                <img src={star} alt="star" />
-                {repo.stargazers_count}
-              </span>
-              <span>
-                <img src={branch} alt="branch" />
-                {repo.forks}
-              </span>
+      {repos.map(
+        ({
+          name,
+          description,
+          full_name,
+          stargazers_count,
+          forks,
+          language,
+        }) => (
+          <div className="project-container" key={name}>
+            <div className="project-title">
+              <img src={folder} alt="ico" />
+              <h3>
+                <a
+                  href={`https://github.com/Player35Oficial/${name}`}
+                  target="_blank"
+                >
+                  {name}
+                </a>
+              </h3>
             </div>
-            <div className={`language ${repo.language}`}>
-              <span>{repo.language || "Ausente"}</span>
+
+            <div className="project-description">
+              {description ? <p>{description}</p> : <p>{full_name}</p>}
+            </div>
+
+            <div className="project-stats">
+              <div>
+                <span>
+                  <img src={star} alt="star" />
+                  {stargazers_count}
+                </span>
+                <span>
+                  <img src={branch} alt="branch" />
+                  {forks}
+                </span>
+              </div>
+              <div className={`language ${language}`}>
+                <span>{language || "Ausente"}</span>
+              </div>
             </div>
           </div>
-        </div>
-      ))}
+        )
+      )}
     </>
   );
 }
