@@ -24,8 +24,9 @@ const ProfileContainer = styled.div`
   }
 
   img {
-    width: 128px;
+    border-radius: 50%;
     margin-bottom: 1.875rem;
+    width: 128px;
   }
 
   h3 {
