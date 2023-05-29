@@ -1,5 +1,4 @@
 import React from "react";
-// import "./Index.css";
 import { TechContainer } from "./styles";
 
 export default function Technologies() {
