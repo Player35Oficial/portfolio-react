@@ -1,5 +1,4 @@
 import React from "react";
-// import "./Index.css";
 import { ExpContainer } from "./styles";
 
 export default function Experiences() {
@@ -10,8 +9,9 @@ export default function Experiences() {
         <li>
           <h4>SENAI - Ary Torres</h4>
           <p>
-            2021 - Atualmente <br />{" "}
-            <span>Técnico em Eletroeletrônica - Aprendiz</span>{" "}
+            2021 - Atualmente
+            <br />
+            <span>Técnico em Eletroeletrônica - Aprendiz</span>
           </p>
         </li>
       </ul>

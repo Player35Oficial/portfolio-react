@@ -19,6 +19,15 @@ const LinksContainer = styled.div`
     place-items: center;
     height: 30px;
 
+    span {
+      transition: 0.2s;
+      cursor: default;
+
+      &:hover {
+        color: #e7e7e7;
+      }
+    }
+
     a {
       line-height: 0;
       text-decoration: none;

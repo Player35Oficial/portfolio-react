@@ -12,11 +12,11 @@ export default function Links() {
     <LinksContainer>
       <div>
         <img src={pin} alt="icon" />
-        <a href="Brasil">Brasil</a>
+        <span>Brasil</span>
       </div>
       <div className="links-item">
         <img src={briefcase} alt="icon" />
-        <a href="/">Estudando</a>
+        <span>Estudando</span>
       </div>
       <div className="links-item">
         <img src={github} alt="icon" />

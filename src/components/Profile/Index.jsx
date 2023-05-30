@@ -7,7 +7,7 @@ export default function Profile() {
     <ProfileContainer>
       <img
         src="https://avatars.githubusercontent.com/u/85082875?v=4"
-        alt="Imagem de Perfil"
+        alt="Selfie mostrando meu rosto de frente"
       />
       <h3>Yuri G. Santana</h3>
       <p>Front End Developer</p>
